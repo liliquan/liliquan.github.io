@@ -333,7 +333,14 @@ session依赖于cookie进行传递，禁用cookie后。session不能正常使用
 session会在一定时间内保存在服务器上，每次读取都要从服务器读取，如果访问量多的话，对服务器有资源消耗，考虑服务器性能，应当使用cookie
 将登陆信息等重要信息存放为SESSION
 其他信息如果需要保留，可以放在COOKIE中
-</code></pre><h4 id="get和post的区别"><a href="#get和post的区别" class="headerlink" title="get和post的区别"></a>get和post的区别</h4><pre><code>
+</code></pre><h4 id="get和post的区别"><a href="#get和post的区别" class="headerlink" title="get和post的区别"></a>get和post的区别</h4><pre><code>get 是把参数数据队列加到提交表单的ACTION属性所指的 URL 中，值和表单内各个字段一一对应，在URL中可以看到
+post是通过HTTP post机制，将表单内各个字段与其内容放置在HTML HEADER内一起传送到ACTION属性所指的URL地址。用户看不到这个过程。
+对于get方式，服务器端用Request.QueryString 获取变量的值，
+对于post方式，服务器端用 Request.Form 获取提交的数据。
+get传输的数据量比较小，不能大于2KB。
+post传输的数据量比较大，一般默认不受限制，但是理论上，IIS4中最大是80KB。IIS5最大为100KB。
+get安全性比较低，在URL中可以查看和修改
+post安全性能比较高。
 </code></pre><h4 id="简述cookie的设置及获取过程"><a href="#简述cookie的设置及获取过程" class="headerlink" title="简述cookie的设置及获取过程"></a>简述cookie的设置及获取过程</h4><pre><code>设置COOKIE的值：setcookie(名称,值,保存时间,有效域)
 获取值：$_COOKIE[&#39;名称&#39;];
 </code></pre><h4 id="几个预定义全局变量的作用？"><a href="#几个预定义全局变量的作用？" class="headerlink" title="几个预定义全局变量的作用？"></a>几个预定义全局变量的作用？</h4><pre><code>$_SERVER[&#39;DOCUMENT_ROOT&#39;]        //当前运行脚本所在的文档根目录
