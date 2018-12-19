@@ -5,16 +5,9 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="滑稽猫">
-    <meta name="description" content="title: Mysql数据库基础总结
-date: 2018-12-19 20:27:10
-author: 滑稽猫
-categories: Mysql数据库基础知识总结
-tags:
-  - Mysql数据库
-  - 基础知识
-
-Mysql的">
+    <meta name="keywords" content="Mysql数据库基础总结, 滑稽猫">
+    <meta name="description" content="Mysql的存储引擎，myisam和innodb的区别文件构成：myisam由3个文件构成（表定义文件.frm、数据文件.MYD、索引.MYI），innodb由2个文件构成（表结构、数据结构）
+事务支持：myisam不支持事务，innodb">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +15,7 @@ Mysql的">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>滑稽猫</title>
+    <title>Mysql数据库基础总结 | 滑稽猫</title>
     <link rel="icon" type="image/png" href="/medias/inster.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -258,13 +251,13 @@ Mysql的">
 
 
 
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        
+                        Mysql数据库基础总结
                     </div>
                 </div>
             </div>
@@ -282,7 +275,28 @@ Mysql的">
     <div class="card">
         <div class="card-content article-info">
             
+            <div class="article-tag">
+                
+                <a href="/tags/基础知识/" target="_blank">
+                    <span class="chip bg-color">基础知识</span>
+                </a>
+                
+                <a href="/tags/Mysql数据库/" target="_blank">
+                    <span class="chip bg-color">Mysql数据库</span>
+                </a>
+                
+            </div>
+            
             <div class="post-info">
+                
+                <span class="post-cate">
+                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                    
+                    <a href="/categories/Mysql数据库基础知识总结/" class="post-category" target="_blank">
+                        Mysql数据库基础知识总结
+                    </a>
+                    
+                </span>
                 
 
                 <span class="post-date">
@@ -293,15 +307,7 @@ Mysql的">
         <hr>
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class=" language-yml"><code class="language-yml">title: Mysql数据库基础总结
-date: 2018-12-19 20:27:10
-author: 滑稽猫
-categories: Mysql数据库基础知识总结
-tags:
-  - Mysql数据库
-  - 基础知识
-</code></pre>
-<h4 id="Mysql的存储引擎，myisam和innodb的区别"><a href="#Mysql的存储引擎，myisam和innodb的区别" class="headerlink" title="Mysql的存储引擎，myisam和innodb的区别"></a>Mysql的存储引擎，myisam和innodb的区别</h4><pre class=" language-mysql"><code class="language-mysql">文件构成：myisam由3个文件构成（表定义文件.frm、数据文件.MYD、索引.MYI），innodb由2个文件构成（表结构、数据结构）
+                <h4 id="Mysql的存储引擎，myisam和innodb的区别"><a href="#Mysql的存储引擎，myisam和innodb的区别" class="headerlink" title="Mysql的存储引擎，myisam和innodb的区别"></a>Mysql的存储引擎，myisam和innodb的区别</h4><pre class=" language-mysql"><code class="language-mysql">文件构成：myisam由3个文件构成（表定义文件.frm、数据文件.MYD、索引.MYI），innodb由2个文件构成（表结构、数据结构）
 事务支持：myisam不支持事务，innodb支持事务和外键
 全文索引：myisam支持全文索引(英文) innodb不支持，但是从5.6开始也支持
 锁机制：myisam是表锁，innodb是行锁
@@ -527,7 +533,7 @@ set autocommit = 1 开启自动提交
                     <span class="reprint-tip">Reprint please specify: </span>
                     <a href="localhost:4000" class="b-link-green">滑稽猫</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2018/12/19/mysql/" class="b-link-green"></a>
+                    <a href="/2018/12/19/mysql/" class="b-link-green">Mysql数据库基础总结</a>
                 </p>
             </div>
         </div>
@@ -549,7 +555,7 @@ set autocommit = 1 开启自动提交
         repo: 'liliquan.github.io',
         owner: 'liliquan',
         admin: "liliquan",
-        id: '2018-12-19T20-28-49',
+        id: '2018-12-19T20-27-10',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -575,34 +581,43 @@ set autocommit = 1 开启自动提交
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Mysql数据库基础总结">
                         
-                        <span class="card-title"></span>
+                        <span class="card-title">Mysql数据库基础总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">title: Mysql数据库基础总结
-date: 2018-12-19 20:27:10
-author: 滑稽猫
-categories: Mysql数据库基础知识总结
-tags:
-  - Mysql数据库
-  - 基础知识
-
-Mysql的</div>
+                    <div class="summary">Mysql的存储引擎，myisam和innodb的区别文件构成：myisam由3个文件构成（表定义文件.frm、数据文件.MYD、索引.MYI），innodb由2个文件构成（表结构、数据结构）
+事务支持：myisam不支持事务，innodb</div>
                     <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-19
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-user fa-fw"></i>
-                            jock cat
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Mysql数据库基础知识总结/" class="post-category" target="_blank">
+                                    Mysql数据库基础知识总结
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/基础知识/" target="_blank">
+                        <span class="chip bg-color">基础知识</span>
+                    </a>
+                    
+                    <a href="/tags/Mysql数据库/" target="_blank">
+                        <span class="chip bg-color">Mysql数据库</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
