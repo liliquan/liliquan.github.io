@@ -5,10 +5,11 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="PHP基础知识总结, 滑稽猫">
-    <meta name="description" content="PHP的意思，它能干些什么PHP（超文本预处理）是一种被广泛应用开放源代码的多用途脚本语言，可嵌入HTML中，尤其适合Web开发
-PHP能做很多事，主要用于服务端的脚本程序，因此可以用来完成其它CGI程序能够完成的工作
-ex：收集表单数据，">
+    <meta name="keywords" content="PHP知识总结, 滑稽猫">
+    <meta name="description" content="浏览器内核什么是浏览器内核？
+    浏览器内核可大概翻译成渲染引擎，主要负责对网页语法的解释和渲染网页。
+在浏览器中的作用是什么？
+    浏览器内核对于浏览器而言，是基础，是依托。如果没有浏览器内核，那么浏览器就无法独立存在且产生作用。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +17,7 @@ ex：收集表单数据，">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>PHP基础知识总结 | 滑稽猫</title>
+    <title>PHP知识总结 | 滑稽猫</title>
     <link rel="icon" type="image/png" href="/medias/inster.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -252,13 +253,13 @@ ex：收集表单数据，">
 
 
 
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        PHP基础知识总结
+                        PHP知识总结
                     </div>
                 </div>
             </div>
@@ -278,8 +279,12 @@ ex：收集表单数据，">
             
             <div class="article-tag">
                 
-                <a href="/tags/PHP基础知识总结/" target="_blank">
-                    <span class="chip bg-color">PHP基础知识总结</span>
+                <a href="/tags/PHP知识总结/" target="_blank">
+                    <span class="chip bg-color">PHP知识总结</span>
+                </a>
+                
+                <a href="/tags/基础知识/" target="_blank">
+                    <span class="chip bg-color">基础知识</span>
                 </a>
                 
             </div>
@@ -289,146 +294,100 @@ ex：收集表单数据，">
                 <span class="post-cate">
                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                     
-                    <a href="/categories/PHP基础/" class="post-category" target="_blank">
-                        PHP基础
+                    <a href="/categories/PHP技能拔高、基础知识/" class="post-category" target="_blank">
+                        PHP技能拔高、基础知识
                     </a>
                     
                 </span>
                 
 
                 <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-12-17
+                    <i class="fa fa-clock-o fa-fw"></i>2018-12-19
                 </span>
             </div>
         </div>
         <hr>
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="PHP的意思，它能干些什么"><a href="#PHP的意思，它能干些什么" class="headerlink" title="PHP的意思，它能干些什么"></a>PHP的意思，它能干些什么</h4><pre><code>PHP（超文本预处理）是一种被广泛应用开放源代码的多用途脚本语言，可嵌入HTML中，尤其适合Web开发
-PHP能做很多事，主要用于服务端的脚本程序，因此可以用来完成其它CGI程序能够完成的工作
-ex：收集表单数据，生成动态网页
-</code></pre><h4 id="说明PHP中传值和传引用的区别，说明什么时候传值，什么时候用引用。"><a href="#说明PHP中传值和传引用的区别，说明什么时候传值，什么时候用引用。" class="headerlink" title="说明PHP中传值和传引用的区别，说明什么时候传值，什么时候用引用。"></a>说明PHP中传值和传引用的区别，说明什么时候传值，什么时候用引用。</h4><pre><code>传值：就是将变量的值拷贝一份赋值给另一个变量，改变任何一个变量的值都不会影响到另一个
-传引用：将变量的值的内存地址传给另一个变量，新变量引用了原始变量，两个变量同时指向了同一个值，改动会相互影响
-对于比较大的数据，传引用比较好，可以节省内存开销
-</code></pre><h4 id="PHP在服务器端进行页面重定向所使用的函数名称"><a href="#PHP在服务器端进行页面重定向所使用的函数名称" class="headerlink" title="PHP在服务器端进行页面重定向所使用的函数名称"></a>PHP在服务器端进行页面重定向所使用的函数名称</h4><pre><code>header()
-ex:header(&quot;Localhost:http://www.example.com/&quot;);
-header(&quot;HTTP/1.0 404 NOT Found&quot;);
-</code></pre><h4 id="什么是面向对象，主要特征是什么？"><a href="#什么是面向对象，主要特征是什么？" class="headerlink" title="什么是面向对象，主要特征是什么？"></a>什么是面向对象，主要特征是什么？</h4><pre><code>面向对象简称OOP，对象就是人对各种具体事物抽象之后的概念。人们每天都在跟各种对象打交道，就比如：一台电脑；
-而对象有很多特性：内存，宽度，颜色...这些就是属性，
-而对象还有很多功能：听歌，看视频，打电话...这些就是方法，可以看成是一个函数
-但是对象不是独立的，还有继承性。在编程的过程中，我们可以把所有问题都看成是一个对象，
-但对象实际上就是一组数据的集合，并且都已经被命名，这些数据的根据就是对象的属性，可以被访问。
-但是如果要访问一个外部的对象我们就必须要先将它引进来。
-
-
-把数据及对数据的操作方法放在一起，作为一个相互依存的整体---对象。对同类对象抽象出其共性，形成类。
-类中的大多数数据，只能用本类中的方法进行处理。类通过一个简单的接口和外界发生关系，对象与对象之间通过消息进行通信。
-是一种设计方式，两个成员，一个属性，一个方法，有利于提高程序的重用性，使程序结构更加清晰
-
-特征：封装，继承，多态
-</code></pre><h4 id="SESSION和COOKIE的区别是什么，请从协议，产生的原因与作用声明"><a href="#SESSION和COOKIE的区别是什么，请从协议，产生的原因与作用声明" class="headerlink" title="SESSION和COOKIE的区别是什么，请从协议，产生的原因与作用声明"></a>SESSION和COOKIE的区别是什么，请从协议，产生的原因与作用声明</h4><pre><code>http无状态协议，不能区分用户是否是从同一个网站上来的，同一个用户请求不同的页面不能看作是同一个用户。
-cookie数据存放在客户的浏览器上，session数据放在服务器上。
-cookie安全性没有session高，别人可以分析本地的cookie进行cookie欺诈，考虑到安全应当使用session。
-session依赖于cookie进行传递，禁用cookie后。session不能正常使用。
-session会在一定时间内保存在服务器上，每次读取都要从服务器读取，如果访问量多的话，对服务器有资源消耗，考虑服务器性能，应当使用cookie
-将登陆信息等重要信息存放为SESSION
-其他信息如果需要保留，可以放在COOKIE中
-</code></pre><h4 id="get和post的区别"><a href="#get和post的区别" class="headerlink" title="get和post的区别"></a>get和post的区别</h4><pre><code>get 是把参数数据队列加到提交表单的ACTION属性所指的 URL 中，值和表单内各个字段一一对应，在URL中可以看到
-post是通过HTTP post机制，将表单内各个字段与其内容放置在HTML HEADER内一起传送到ACTION属性所指的URL地址。用户看不到这个过程。
-对于get方式，服务器端用Request.QueryString 获取变量的值，
-对于post方式，服务器端用 Request.Form 获取提交的数据。
-get传输的数据量比较小，不能大于2KB。
-post传输的数据量比较大，一般默认不受限制，但是理论上，IIS4中最大是80KB。IIS5最大为100KB。
-get安全性比较低，在URL中可以查看和修改
-post安全性能比较高。
-</code></pre><h4 id="简述cookie的设置及获取过程"><a href="#简述cookie的设置及获取过程" class="headerlink" title="简述cookie的设置及获取过程"></a>简述cookie的设置及获取过程</h4><pre><code>设置COOKIE的值：setcookie(名称,值,保存时间,有效域)
-获取值：$_COOKIE[&#39;名称&#39;];
-</code></pre><h4 id="几个预定义全局变量的作用？"><a href="#几个预定义全局变量的作用？" class="headerlink" title="几个预定义全局变量的作用？"></a>几个预定义全局变量的作用？</h4><pre><code>$_SERVER[&#39;DOCUMENT_ROOT&#39;]        //当前运行脚本所在的文档根目录
-$_SERVER[&#39;HTTP_HOST &#39;]            //当前请求的 Host: 头部的内容
-$_SERVER[&#39;REMOTE_ADDR&#39;]            //正在浏览当前页面用户的 IP 地址
-$_SERVER[&#39;HTTP_REFERER&#39;]         //链接到当前页面的前一页面的 URL 地址
-$_SERVER[&#39;SERVER_NAME&#39;]            //当前运行脚本所在服务器主机的名称
-$_FILES                           //包含有所有上传的文件信息
-S_FILES[&#39;userfile&#39;][&#39;name&#39;]        //客户端机器文件的原名称
-$_FILES[&#39;userfile&#39;][&#39;type&#39;]        //文件 MIME 类型，如果浏览器提供此信息的话，如“image/gif”。
-$_FILES[&#39;userfile&#39;][&#39;size&#39;]        //已上传文件的大小，单位为字节
-$_FILES[&#39;userfile&#39;][&#39;tmp_name&#39;] //文件被上传后在服务端储存的临时文件名 
-$_FILES[&#39;userfile&#39;][&#39;error&#39;]    //和该文件上传相关的错误代码
-</code></pre><p>####inclde和require的区别，inclode和include_once有什么区别</p>
-<pre><code>include的意思是包含，如果包含的文件不存在的话，那么提示一个错误，程序继续执行
-require的意思是需要，如果包含的文件不存在或者无法打开时，则会提示错误，程序停止执行
-include_once的意思是只包含一次，避免重复包含
-</code></pre><h4 id="用PHP写出显示客户端IP和服务器端IP"><a href="#用PHP写出显示客户端IP和服务器端IP" class="headerlink" title="用PHP写出显示客户端IP和服务器端IP"></a>用PHP写出显示客户端IP和服务器端IP</h4><pre><code>客户端：$_SERVER[&#39;REMOTE_ADDR&#39;]
-服务器端：$_SERVER[&#39;SERVER_ADDR&#39;]
-</code></pre><h4 id="echo-print-print-r-的区别"><a href="#echo-print-print-r-的区别" class="headerlink" title="echo(),print(),print_r()的区别"></a>echo(),print(),print_r()的区别</h4><pre><code>echo 是PHP语句，print和print_r是函数，
-语句没有返回值，函数有返回值
-echo 只能输出一个或者多个字符串
-print()只能打印简单类型变量的值(ex:int,string)
-print_r()可以打印出复杂类型变量的值（ex:数组，对象）
-</code></pre><h4 id="面向对象中接口个抽象类的区别及应用场景"><a href="#面向对象中接口个抽象类的区别及应用场景" class="headerlink" title="面向对象中接口个抽象类的区别及应用场景"></a>面向对象中接口个抽象类的区别及应用场景</h4><pre><code>有抽象方法的类叫做抽象类，抽象类中不一定有抽象方法，抽象方法必须使用abstract的关键字定义
-接口中全部都是抽象方法，方法不用使用abstract定义
-当多个同类的类要设计一个上层，通常设计为抽象类，当多个异构的类y要设计一个上层，通常设计为接口
-</code></pre><h4 id="描述一下http与https的区别"><a href="#描述一下http与https的区别" class="headerlink" title="描述一下http与https的区别"></a>描述一下http与https的区别</h4><pre><code>https协议需要到ca申请证书,需要缴费
-http是超文本传输协议，信息是明文传输，https则是具有安全性的ssl加密传输协议
-两者使用时连接方式不同，端口也不同，http是80，https是443
-http连接方式很简单，无状态
-https协议是ssl+http协议构建的可进行加密传输、身份认证的网络协议，比http要安全
-</code></pre><h4 id="什么是XSS攻击，如何预防XSS攻击"><a href="#什么是XSS攻击，如何预防XSS攻击" class="headerlink" title="什么是XSS攻击，如何预防XSS攻击"></a>什么是XSS攻击，如何预防XSS攻击</h4><pre><code>XSS跨站脚本攻击，是一种常见的web安全漏洞，他允许攻击者将恶意代码植入到提供给其他用户使用的页面中。
-目的是为了盗取存储在客户端的cookie或者其他网站用于识别用户客户端的敏感信息。一旦获取到这些信息，攻击者就可以假冒合法用户与网站进行交互。
-通常分为两大类：存储行XSS和反射性XSS。
-坚决不要相信用户的任何输入，并过滤掉输入中的所有特殊字符。就可以防御大部分的XSS攻击
-目前防御XSS主要有一下几种方式：
-过滤掉特殊字符：
-避免XSS的方法之一主要是将用户所提供的内容进行过滤，Go语言提供了HTML的过滤函数
-使用http头指定类型
-&quot;w.header().set(&#39;Content-type&#39;,&#39;text/jacascript&#39;)&quot;
-</code></pre><h4 id="什么是CSRF攻击？如何预防CSRF攻击"><a href="#什么是CSRF攻击？如何预防CSRF攻击" class="headerlink" title="什么是CSRF攻击？如何预防CSRF攻击?"></a>什么是CSRF攻击？如何预防CSRF攻击?</h4><pre><code>跨站请求伪造，攻击者盗用登陆信息，以你的身份模拟发送各种请求。    
-CSRF的防御可以从服务端和客户端两方面着手，防御效果是从服务器端着手效果比较好
-服务器端预防CSRF攻击的方式方法有多种，主要是：
-１.正确的使用GET、POST和cookie
-２.在非GET请求中增加防伪随机数
-</code></pre><h4 id="常用的魔术方法和魔术变量，并说明作用"><a href="#常用的魔术方法和魔术变量，并说明作用" class="headerlink" title="常用的魔术方法和魔术变量，并说明作用"></a>常用的魔术方法和魔术变量，并说明作用</h4><pre><code>__constuct() 类的默认构造方法，如果__construct()和与类同名的方法共同出现时，默认调用__construct()而不是同类名方法
-__destruct()类的析构函数，当该对象的所有引用都被删除，或者对象被显示销毁时执行
-__get($name)可以简单归纳为：：用$object-&gt;a 的方式读取对象的属性时，如果属性 a存在且是 public型，那
-么直接返回该属性的值；如果属性 a不存在或者是 protected/private 这样的不可直接访问的类型，就会调用
-__get($name)方法并以返回值为准。一般可以使用该方法使外部可限制性地访问内部属性。
-__toString() 当打印对象时会被直接调用。
-__clone() 当对象被拷贝时直接调用。
-
-__FILE__返回文件中的当前行号
-__FILE__返回所在文件的完整路径。包含文件名
-
-</code></pre><h4 id="两种屏蔽PHP程序的notice警告的方法"><a href="#两种屏蔽PHP程序的notice警告的方法" class="headerlink" title="两种屏蔽PHP程序的notice警告的方法"></a>两种屏蔽PHP程序的notice警告的方法</h4><pre><code>1.在php.ini文件中改动error_reporting
-改为：
-error_reporting=E_ALL
-&amp;~E_NOTICE
-2.如果不能操作php.ini文件，可以在错误提示页面中加入如下代码：
-&lt;?php error_reporting(E_ALL^E_NOTICE) ?&gt;
-</code></pre><h4 id="utf8-general-ci不区分大小写"><a href="#utf8-general-ci不区分大小写" class="headerlink" title="utf8_general_ci不区分大小写"></a>utf8_general_ci不区分大小写</h4><h4 id="PHP访问数据库的步骤"><a href="#PHP访问数据库的步骤" class="headerlink" title="PHP访问数据库的步骤"></a>PHP访问数据库的步骤</h4><pre class=" language-mysql"><code class="language-mysql"><?php
-$dsn='mysql:host=localhost;dbname=test';
-$user='root';
-$password='123456';
-
-    try{
-        $sql='select * from  admin';
-        $dbh=new PDO($dsn,$user,$password);
-        $dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION); 
-        $stmt=$dbh->prepare($sql);
-        $stmt->execute();
-        while ($row=$stmt->fetch(PDO::FETCH_ASSOC)) {
-            echo $row['username'];
-            echo "----";
-        }
-    }catch(PDOException $e)
-    {
-        echo "连接失败";
-        var_dump($e->getMessage());
-        exit();
-    }
-
-?>
+                <h4 id="浏览器内核"><a href="#浏览器内核" class="headerlink" title="浏览器内核"></a>浏览器内核</h4><pre><code>什么是浏览器内核？
+    浏览器内核可大概翻译成渲染引擎，主要负责对网页语法的解释和渲染网页。
+在浏览器中的作用是什么？
+    浏览器内核对于浏览器而言，是基础，是依托。如果没有浏览器内核，那么浏览器就无法独立存在且产生作用。
+    它的存在，决定了网页的呈现内容、格式以及显示效果。
+    所以说一个好的浏览器一定是基于一个稳定、高端、作用明显的浏览器内核。
+四大浏览器内核：
+    Trident内核、Gecko内核、WebKit内核、Blink内核
+Trident内核常见的浏览器：IE6、IE7、IE8(Trident4.0)、IE9(Trident5.0)、IE10（Trident6.0）
+GECKO内核：火狐浏览器。（开源，开发程度高）
+WEBKIT内核：是苹果公司自主研发的内核。safari浏览器使用的内核。开源。
+BLINK内核：是由Google和Opera开发的浏览器排版引擎。
+</code></pre><h4 id="CSS-HACK是什么"><a href="#CSS-HACK是什么" class="headerlink" title="CSS HACK是什么"></a>CSS HACK是什么</h4><pre><code>由于不同的浏览器对css的支持、解析不一样，导致在不同浏览器的环境中呈现不一致的页面展现效果。
+这时，我们为了获取统一的页面效果，就需要针对不同浏览器或不同版本些特定的css样式，
+我们把这个针对不同浏览器、不同版本写相应的css code的过程叫做css hack
+</code></pre><h4 id="常用HTTP状态码"><a href="#常用HTTP状态码" class="headerlink" title="常用HTTP状态码"></a>常用HTTP状态码</h4><pre><code>2字头：成功；3字头：重定向；4字头：请求错误；5字头：服务器错误
+200-表示动作被成功接收、理解和接受
+204-请求收到，但返回信息为空
+300-请求资源可在多处得到
+301-本网页被永久性转移到另一个URL
+305-请求的资源必须从服务器指定的地址得到
+307-申明请求的资源被临时性删除
+400-客户端请求有语法错误，不能被服务器所理解
+401-请求未经授权
+403-禁止访问，服务器收到请求，但是拒绝提供服务
+404-一个404错误表明可连接服务器，但服务器无法取得所请求的网页，请求资源不存在
+500-服务器错误，无法完成请求
+</code></pre><h4 id="javascript中一个按钮绑定两个onclick事件"><a href="#javascript中一个按钮绑定两个onclick事件" class="headerlink" title="javascript中一个按钮绑定两个onclick事件"></a>javascript中一个按钮绑定两个onclick事件</h4><pre class=" language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"row"</span> id<span class="token operator">=</span><span class="token string">"row"</span> onclick<span class="token operator">=</span><span class="token string">"A();B()"</span><span class="token operator">></span>
+<span class="token operator">&lt;</span>script type<span class="token operator">=</span><span class="token string">"text/javascript"</span> src<span class="token operator">=</span><span class="token string">""</span><span class="token operator">></span>
+<span class="token keyword">function</span> <span class="token function">A</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+   <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"aaa"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">B</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+   <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"bbb"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
 </code></pre>
-
+<h4 id="简述无限分类的实现原理"><a href="#简述无限分类的实现原理" class="headerlink" title="简述无限分类的实现原理"></a>简述无限分类的实现原理</h4><pre><code>表设计：在表中添加一个parient_id来记录上级分类id，顶级分类则为0;
+树形结构：利用递归函数，将分类数据按上下级关系排序
+</code></pre><h4 id="打开php-ini中safe-mode，会影响哪些参数？"><a href="#打开php-ini中safe-mode，会影响哪些参数？" class="headerlink" title="打开php.ini中safe_mode，会影响哪些参数？"></a>打开php.ini中safe_mode，会影响哪些参数？</h4><pre><code>
+</code></pre><h4 id="对PHP命名空间的理解"><a href="#对PHP命名空间的理解" class="headerlink" title="对PHP命名空间的理解"></a>对PHP命名空间的理解</h4><pre><code>命名空间是一种封装事务的抽象方法，空间是虚拟的，主要用来解决类、函数、常量名字的冲突问题
+命名空间的引入机制：使用关键字use
+</code></pre><p>####用PHP写出一个安全的用户登录系统需要注意哪些方面？</p>
+<pre><code>密码使用md5进行加密
+登录后台处理数据时，进行过滤，防止sql注入
+验证数据是否来自本站
+使用验证码进行登录，防止破解
+</code></pre><h4 id="如何实现多个线程安全的写入一个文件数据"><a href="#如何实现多个线程安全的写入一个文件数据" class="headerlink" title="如何实现多个线程安全的写入一个文件数据"></a>如何实现多个线程安全的写入一个文件数据</h4><pre><code>采用锁机制，当一个用户在对此文件进行读写操作时，将此文件锁定，操作完毕后将锁解除
+在用户操作过程中，其他用户不能进行操作，需要等待前一个用户操作完毕
+</code></pre><h4 id="GD库是做什么的？"><a href="#GD库是做什么的？" class="headerlink" title="GD库是做什么的？"></a>GD库是做什么的？</h4><pre><code>GD库是php处理图形的扩展库，提供了一系列用来处理图片的API，使用GD库可以处理图片，生成图片，也可以加水印
+在网站上GD库通常用来生成缩略图或者用来对图片加水印或者对网站数据生成报表
+</code></pre><h4 id="MVC的理解"><a href="#MVC的理解" class="headerlink" title="MVC的理解"></a>MVC的理解</h4><pre><code>m-模型，v-视图，c-控制器
+由模型发出要实现的功能到控制器，控制器接收组织功能传递给视图
+mvc是一个设计模式。强制将程序的输入、处理、输出分开
+视图是用户看到并与之交互的页面
+模型表示企业数据和业务规则
+控制器接收用户的输入并调用模型和视图去完成用户的需求
+</code></pre><h4 id="MVC的优缺点"><a href="#MVC的优缺点" class="headerlink" title="MVC的优缺点"></a>MVC的优缺点</h4><pre><code>优点：可适用性强，较低的周期成本，重用性高，快速部署，可维护性、扩展性、有利于软件工程化管理
+缺点：代码量大，系统结构和实现的复杂，不太适合小型，中型规模的应用程序（如果我们只是简单的查询数据库，如果不分层设计我们直接从视图层到模型层去访问，效率会提高，如果代码复杂性为代价，多了一层，代码量增大，开发效率就低了）
+</code></pre><h4 id="PHP如何抛出和接收错误"><a href="#PHP如何抛出和接收错误" class="headerlink" title="PHP如何抛出和接收错误"></a>PHP如何抛出和接收错误</h4><pre><code>使用try...catch
+异常代码放在try代码块中，如果没有抛出异常，则继续执行
+如果触发异常，就抛出异常，catch代码块捕获异常，并创建一个异常信息对象，$e-&gt;getMessage(),输出异常信息
+</code></pre><p>####实现中文字串截取无乱码的方法</p>
+<pre><code>1.使用mbstring扩展库的mb_substr截取就不会出现乱码了。
+2.自己书写截取函数，但效率不如用mbstring扩展库来得高。
+3.如果仅是为了输出截取的串，可用如下方式实现：substr($str, 0, 30).chr(0)。
+substr(string,start,length)
+start:必须的，规定字符串从何处开始截取，正数-在字符串的指定位置开始。负数-从字符串的结尾开始。0-从头第一个开始
+**************mb_substr和mb_strcut的区别****************
+mb_substr是按字来切分字符。。mb_strcut是按字节来切分字符。
+两者在php.ini中打开php_mbstring.dll
+</code></pre><h4 id="网站高并发、大流量访问的处理及解决方案"><a href="#网站高并发、大流量访问的处理及解决方案" class="headerlink" title="网站高并发、大流量访问的处理及解决方案"></a>网站高并发、大流量访问的处理及解决方案</h4><pre><code>1.首先确定当前的服务器硬件是否能够支持当前的流量
+2.优化数据库访问，前台能静态化就最好，但是访问比较频繁的网站，静态化也不能完全解决问题。
+3.缓存技术就是另一个解决方式，将常用的数据和动态的数据放入缓存文件，在需要用到这些数据时，直接去缓存取。
+4.如果无法避免访问数据库，那就尝试优化数据库查询和数据库结构，尽量做到：要什么取什么，遵循小表为主，附表为辅，查询条件先索引，先小后大，提高查询速度
+5.禁止外部网站的图片或者文件，可以简单通过referer来控制盗链。apache可以通过配置来禁止盗链。
+6.控制大文件的下载，尽量不要提供超过2M的大文件下载，如果需要，可以将大文件放在另外一台服务器上
+7.使用流量分析软件统计软件，可以及时知道哪些地方流量大，哪些地方需要优化。Google Analytics
+</code></pre>
             </div>
             <hr>
 
@@ -566,7 +525,7 @@ $password='123456';
                     <span class="reprint-tip">Reprint please specify: </span>
                     <a href="localhost:4000" class="b-link-green">滑稽猫</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2018/12/17/php/" class="b-link-green">PHP基础知识总结</a>
+                    <a href="/2018/12/19/php-ba-gao/" class="b-link-green">PHP知识总结</a>
                 </p>
             </div>
         </div>
@@ -588,7 +547,7 @@ $password='123456';
         repo: 'liliquan.github.io',
         owner: 'liliquan',
         admin: "liliquan",
-        id: '2018-12-17T11-23-20',
+        id: '2018-12-19T15-45-28',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -608,7 +567,7 @@ $password='123456';
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">Previous</div>
+            <div class="article-badge left-badge text-color">Current</div>
             <div class="card">
                 <a href="/2018/12/19/php-ba-gao/">
                     <div class="card-image">
@@ -625,9 +584,9 @@ $password='123456';
 在浏览器中的作用是什么？
     浏览器内核对于浏览器而言，是基础，是依托。如果没有浏览器内核，那么浏览器就无法独立存在且产生作用。</div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -640,6 +599,7 @@ $password='123456';
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -660,28 +620,29 @@ $password='123456';
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">Next</div>
             <div class="card">
-                <a href="/2018/11/29/2018-09-07-vue/">
+                <a href="/2018/12/17/php/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="Webpack基本介绍">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="PHP基础知识总结">
                         
-                        <span class="card-title">Webpack基本介绍</span>
+                        <span class="card-title">PHP基础知识总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">WebpackCourseThis Repository will study Webpack
-chapter 1: Webpack介绍1.1 为什么要用Webpack前端本可以直接HTML、CSS、Javascript就上了，不过如果要处</div>
+                    <div class="summary">PHP的意思，它能干些什么PHP（超文本预处理）是一种被广泛应用开放源代码的多用途脚本语言，可嵌入HTML中，尤其适合Web开发
+PHP能做很多事，主要用于服务端的脚本程序，因此可以用来完成其它CGI程序能够完成的工作
+ex：收集表单数据，</div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-29
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-17
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Markdown/" class="post-category" target="_blank">
-                                    Markdown
+                            <a href="/categories/PHP基础/" class="post-category" target="_blank">
+                                    PHP基础
                                 </a>
                             
                             
@@ -691,8 +652,8 @@ chapter 1: Webpack介绍1.1 为什么要用Webpack前端本可以直接HTML、CS
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Webpack入门到放弃/" target="_blank">
-                        <span class="chip bg-color">Webpack入门到放弃</span>
+                    <a href="/tags/PHP基础知识总结/" target="_blank">
+                        <span class="chip bg-color">PHP基础知识总结</span>
                     </a>
                     
                 </div>
