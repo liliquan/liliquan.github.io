@@ -5,11 +5,9 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="PHP知识总结, 滑稽猫">
-    <meta name="description" content="浏览器内核什么是浏览器内核？
-    浏览器内核可大概翻译成渲染引擎，主要负责对网页语法的解释和渲染网页。
-在浏览器中的作用是什么？
-    浏览器内核对于浏览器而言，是基础，是依托。如果没有浏览器内核，那么浏览器就无法独立存在且产生作用。">
+    <meta name="keywords" content="Linux, 滑稽猫">
+    <meta name="description" content="有一个系统平台PHP数据页面需要定时刷新以增加搜索引擎的友好性，该脚本的路径及名称为：/share/web/refresh.php，请尝试让Linux每天晚上12:00自动执行及早4:00自动运行程序？参考答案：
+1.linux下执行PHP">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>PHP知识总结 | 滑稽猫</title>
+    <title>Linux | 滑稽猫</title>
     <link rel="icon" type="image/png" href="/medias/inster.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -253,13 +251,13 @@
 
 
 
-<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        PHP知识总结
+                        Linux
                     </div>
                 </div>
             </div>
@@ -279,12 +277,12 @@
             
             <div class="article-tag">
                 
-                <a href="/tags/基础知识/" target="_blank">
-                    <span class="chip bg-color">基础知识</span>
+                <a href="/tags/Linux/" target="_blank">
+                    <span class="chip bg-color">Linux</span>
                 </a>
                 
-                <a href="/tags/PHP知识总结/" target="_blank">
-                    <span class="chip bg-color">PHP知识总结</span>
+                <a href="/tags/基础知识/" target="_blank">
+                    <span class="chip bg-color">基础知识</span>
                 </a>
                 
             </div>
@@ -294,99 +292,96 @@
                 <span class="post-cate">
                     <i class="fa fa-bookmark fa-fw icon-category"></i>
                     
-                    <a href="/categories/PHP技能拔高、基础知识/" class="post-category" target="_blank">
-                        PHP技能拔高、基础知识
+                    <a href="/categories/Linux总结/" class="post-category" target="_blank">
+                        Linux总结
                     </a>
                     
                 </span>
                 
 
                 <span class="post-date">
-                    <i class="fa fa-clock-o fa-fw"></i>2018-12-19
+                    <i class="fa fa-clock-o fa-fw"></i>2018-12-20
                 </span>
             </div>
         </div>
         <hr>
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h4 id="浏览器内核"><a href="#浏览器内核" class="headerlink" title="浏览器内核"></a>浏览器内核</h4><pre><code>什么是浏览器内核？
-    浏览器内核可大概翻译成渲染引擎，主要负责对网页语法的解释和渲染网页。
-在浏览器中的作用是什么？
-    浏览器内核对于浏览器而言，是基础，是依托。如果没有浏览器内核，那么浏览器就无法独立存在且产生作用。
-    它的存在，决定了网页的呈现内容、格式以及显示效果。
-    所以说一个好的浏览器一定是基于一个稳定、高端、作用明显的浏览器内核。
-四大浏览器内核：
-    Trident内核、Gecko内核、WebKit内核、Blink内核
-Trident内核常见的浏览器：IE6、IE7、IE8(Trident4.0)、IE9(Trident5.0)、IE10（Trident6.0）
-GECKO内核：火狐浏览器。（开源，开发程度高）
-WEBKIT内核：是苹果公司自主研发的内核。safari浏览器使用的内核。开源。
-BLINK内核：是由Google和Opera开发的浏览器排版引擎。
-</code></pre><h4 id="CSS-HACK是什么"><a href="#CSS-HACK是什么" class="headerlink" title="CSS HACK是什么"></a>CSS HACK是什么</h4><pre><code>由于不同的浏览器对css的支持、解析不一样，导致在不同浏览器的环境中呈现不一致的页面展现效果。
-这时，我们为了获取统一的页面效果，就需要针对不同浏览器或不同版本些特定的css样式，
-我们把这个针对不同浏览器、不同版本写相应的css code的过程叫做css hack
-</code></pre><h4 id="常用HTTP状态码"><a href="#常用HTTP状态码" class="headerlink" title="常用HTTP状态码"></a>常用HTTP状态码</h4><pre><code>2字头：成功；3字头：重定向；4字头：请求错误；5字头：服务器错误
-200-表示动作被成功接收、理解和接受
-204-请求收到，但返回信息为空
-300-请求资源可在多处得到
-301-本网页被永久性转移到另一个URL
-305-请求的资源必须从服务器指定的地址得到
-307-申明请求的资源被临时性删除
-400-客户端请求有语法错误，不能被服务器所理解
-401-请求未经授权
-403-禁止访问，服务器收到请求，但是拒绝提供服务
-404-一个404错误表明可连接服务器，但服务器无法取得所请求的网页，请求资源不存在
-500-服务器错误，无法完成请求
-</code></pre><h4 id="javascript中一个按钮绑定两个onclick事件"><a href="#javascript中一个按钮绑定两个onclick事件" class="headerlink" title="javascript中一个按钮绑定两个onclick事件"></a>javascript中一个按钮绑定两个onclick事件</h4><pre class=" language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"row"</span> id<span class="token operator">=</span><span class="token string">"row"</span> onclick<span class="token operator">=</span><span class="token string">"A();B()"</span><span class="token operator">></span>
-<span class="token operator">&lt;</span>script type<span class="token operator">=</span><span class="token string">"text/javascript"</span> src<span class="token operator">=</span><span class="token string">""</span><span class="token operator">></span>
-<span class="token keyword">function</span> <span class="token function">A</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-   <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"aaa"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">function</span> <span class="token function">B</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-   <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"bbb"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+                <h4 id="有一个系统平台PHP数据页面需要定时刷新以增加搜索引擎的友好性，该脚本的路径及名称为：-share-web-refresh-php，请尝试让Linux每天晚上12-00自动执行及早4-00自动运行程序？"><a href="#有一个系统平台PHP数据页面需要定时刷新以增加搜索引擎的友好性，该脚本的路径及名称为：-share-web-refresh-php，请尝试让Linux每天晚上12-00自动执行及早4-00自动运行程序？" class="headerlink" title="有一个系统平台PHP数据页面需要定时刷新以增加搜索引擎的友好性，该脚本的路径及名称为：/share/web/refresh.php，请尝试让Linux每天晚上12:00自动执行及早4:00自动运行程序？"></a>有一个系统平台PHP数据页面需要定时刷新以增加搜索引擎的友好性，该脚本的路径及名称为：/share/web/refresh.php，请尝试让Linux每天晚上12:00自动执行及早4:00自动运行程序？</h4><p>参考答案：</p>
+<p>1.linux下执行PHP文件的命令为：php的安装路径 -f /share/web/refresh.php</p>
+<p>2.编写shell脚本。refresh.sh</p>
+<p>cd usr/local/php/bin</p>
+<p>php share/web/refresh.sh</p>
+<p>3.增加任务调度指令：crontab -e</p>
+<p>0 12 <em> </em> <em> /refresh.sh的路径/refresh.sh<br>0 4 </em> <em> </em> /refresh.sh 的路径/refresh.sh</p>
+<h4 id="有一个叫demo-php的文件，想看一下linux进程中这个脚本是否在执行需要执行的命令？"><a href="#有一个叫demo-php的文件，想看一下linux进程中这个脚本是否在执行需要执行的命令？" class="headerlink" title="有一个叫demo.php的文件，想看一下linux进程中这个脚本是否在执行需要执行的命令？"></a>有一个叫demo.php的文件，想看一下linux进程中这个脚本是否在执行需要执行的命令？</h4><pre class=" language-shell"><code class="language-shell">Ps -u|grep demo.php
 </code></pre>
-<h4 id="简述无限分类的实现原理"><a href="#简述无限分类的实现原理" class="headerlink" title="简述无限分类的实现原理"></a>简述无限分类的实现原理</h4><pre><code>表设计：在表中添加一个parient_id来记录上级分类id，顶级分类则为0;
-树形结构：利用递归函数，将分类数据按上下级关系排序
-</code></pre><h4 id="打开php-ini中safe-mode，会影响哪些参数？"><a href="#打开php-ini中safe-mode，会影响哪些参数？" class="headerlink" title="打开php.ini中safe_mode，会影响哪些参数？"></a>打开php.ini中safe_mode，会影响哪些参数？</h4><pre><code>
-</code></pre><h4 id="对PHP命名空间的理解"><a href="#对PHP命名空间的理解" class="headerlink" title="对PHP命名空间的理解"></a>对PHP命名空间的理解</h4><pre><code>命名空间是一种封装事务的抽象方法，空间是虚拟的，主要用来解决类、函数、常量名字的冲突问题
-命名空间的引入机制：使用关键字use
-</code></pre><p>####用PHP写出一个安全的用户登录系统需要注意哪些方面？</p>
-<pre><code>密码使用md5进行加密
-登录后台处理数据时，进行过滤，防止sql注入
-验证数据是否来自本站
-使用验证码进行登录，防止破解
-</code></pre><h4 id="如何实现多个线程安全的写入一个文件数据"><a href="#如何实现多个线程安全的写入一个文件数据" class="headerlink" title="如何实现多个线程安全的写入一个文件数据"></a>如何实现多个线程安全的写入一个文件数据</h4><pre><code>采用锁机制，当一个用户在对此文件进行读写操作时，将此文件锁定，操作完毕后将锁解除
-在用户操作过程中，其他用户不能进行操作，需要等待前一个用户操作完毕
-</code></pre><h4 id="GD库是做什么的？"><a href="#GD库是做什么的？" class="headerlink" title="GD库是做什么的？"></a>GD库是做什么的？</h4><pre><code>GD库是php处理图形的扩展库，提供了一系列用来处理图片的API，使用GD库可以处理图片，生成图片，也可以加水印
-在网站上GD库通常用来生成缩略图或者用来对图片加水印或者对网站数据生成报表
-</code></pre><h4 id="MVC的理解"><a href="#MVC的理解" class="headerlink" title="MVC的理解"></a>MVC的理解</h4><pre><code>m-模型，v-视图，c-控制器
-由模型发出要实现的功能到控制器，控制器接收组织功能传递给视图
-mvc是一个设计模式。强制将程序的输入、处理、输出分开
-视图是用户看到并与之交互的页面
-模型表示企业数据和业务规则
-控制器接收用户的输入并调用模型和视图去完成用户的需求
-</code></pre><h4 id="MVC的优缺点"><a href="#MVC的优缺点" class="headerlink" title="MVC的优缺点"></a>MVC的优缺点</h4><pre><code>优点：可适用性强，较低的周期成本，重用性高，快速部署，可维护性、扩展性、有利于软件工程化管理
-缺点：代码量大，系统结构和实现的复杂，不太适合小型，中型规模的应用程序（如果我们只是简单的查询数据库，如果不分层设计我们直接从视图层到模型层去访问，效率会提高，如果代码复杂性为代价，多了一层，代码量增大，开发效率就低了）
-</code></pre><h4 id="PHP如何抛出和接收错误"><a href="#PHP如何抛出和接收错误" class="headerlink" title="PHP如何抛出和接收错误"></a>PHP如何抛出和接收错误</h4><pre><code>使用try...catch
-异常代码放在try代码块中，如果没有抛出异常，则继续执行
-如果触发异常，就抛出异常，catch代码块捕获异常，并创建一个异常信息对象，$e-&gt;getMessage(),输出异常信息
-</code></pre><p>####实现中文字串截取无乱码的方法</p>
-<pre><code>1.使用mbstring扩展库的mb_substr截取就不会出现乱码了。
-2.自己书写截取函数，但效率不如用mbstring扩展库来得高。
-3.如果仅是为了输出截取的串，可用如下方式实现：substr($str, 0, 30).chr(0)。
-substr(string,start,length)
-start:必须的，规定字符串从何处开始截取，正数-在字符串的指定位置开始。负数-从字符串的结尾开始。0-从头第一个开始
-**************mb_substr和mb_strcut的区别****************
-mb_substr是按字来切分字符。。mb_strcut是按字节来切分字符。
-两者在php.ini中打开php_mbstring.dll
-</code></pre><h4 id="网站高并发、大流量访问的处理及解决方案"><a href="#网站高并发、大流量访问的处理及解决方案" class="headerlink" title="网站高并发、大流量访问的处理及解决方案"></a>网站高并发、大流量访问的处理及解决方案</h4><pre><code>1.首先确定当前的服务器硬件是否能够支持当前的流量
-2.优化数据库访问，前台能静态化就最好，但是访问比较频繁的网站，静态化也不能完全解决问题。
-3.缓存技术就是另一个解决方式，将常用的数据和动态的数据放入缓存文件，在需要用到这些数据时，直接去缓存取。
-4.如果无法避免访问数据库，那就尝试优化数据库查询和数据库结构，尽量做到：要什么取什么，遵循小表为主，附表为辅，查询条件先索引，先小后大，提高查询速度
-5.禁止外部网站的图片或者文件，可以简单通过referer来控制盗链。apache可以通过配置来禁止盗链。
-6.控制大文件的下载，尽量不要提供超过2M的大文件下载，如果需要，可以将大文件放在另外一台服务器上
-7.使用流量分析软件统计软件，可以及时知道哪些地方流量大，哪些地方需要优化。Google Analytics
+<p>####常用vim命令详解</p>
+<pre><code>vim模式：编辑模式，输入模式，末行模式
+1.模式转换：
+    i-在当前光标所在的字符前面，转换为输入模式。a-在当前光标所在的字符后面输入
+    o-在光标所在的行的下方新建一行并输入。I-在当前光标所在的行首输入
+    A-在当前光标所在的行末输入。O-在当前光标的上一行插入一行并输入
+    输入-&gt;编辑：ESC
+    编辑-&gt;莫行：ESC,ESC
+打开文件：
+    vim+# =&gt; 打开文件，并定位于#行
+    vim+：打开文件，定位至最后一行
+关闭文件：
+    末行模式关闭文件：:q 退出，:wq 保存退出，:q! 不保存退出，:w 保存，:w!强行保存
+    编辑模式下退出：ZZ 保存退出
+更改文件权限：chmod
+结束进程：kill -q
+删除文件：rm filename
+新建目录：mkdir
+文件移动：mv
+查看进程：ps
+
+在指定的路径下查找指定文件:find
+查找文件中包含hello的行：grep hello filename
+
+将文件的内容打印到标准输出:cat
+改变文件所属组：chgrp
+指定文件中的字节数、字数、行数统计输出：wc
+获取文件行数:wc -l filename
+输出文件的最后5行到另一个文件：tail -n 5 file1 &gt;&gt; file2
+把一个文件的内容追加到另一个文件的末尾：cat file1&gt;&gt;file2
+查看磁盘空间使用率：df
+查看系统进程：top
+
+移动光标：
+    k:上,j:下,h:左,l:右
+末行魔术：
+    . 表示当前行        s:最后一行    #:第#行    +#:向下的#行
+翻屏：
+    Ctrl+f: 向下翻一屏    Ctrl+b: 向上翻一屏  Ctrl+d: 向下翻半屏    Ctrl+u: 向上翻半屏
+粘贴命令 p
+    p: 如果删除或复制为整行内容，则粘贴至光标所在行的下方，如果复制或删除的内容为非整行，则粘贴至光标所在字符的后面
+复制命令 d
+    同p用法
+修改：先删除内容，再转换为输入模式
+    c:同p
+替换：r:单字符替换    #r:光标后#个字符全部替换  R:替换模式
+撤销编辑操作：u
+    u:撤销前一次的编辑操作。#u：直接撤销最近#次编辑操作
+    连续u可以撤销前次的n次操作
+    ctrl+r 撤销最近一次撤销操作
+查找：n：下一个。  N:上一个
+</code></pre><h4 id="Linux下建立压缩包，解压缩包命令"><a href="#Linux下建立压缩包，解压缩包命令" class="headerlink" title="Linux下建立压缩包，解压缩包命令"></a>Linux下建立压缩包，解压缩包命令</h4><pre class=" language-shell"><code class="language-shell">Gz:
+打包：tar czf file.tar.gz file.txt
+解压：tar xzf file.tar.gz
+Bz:
+打包：tar zxvf file.tar.bz2 file.txt
+解压：tar zxvf file
+Gzip:
+打包：gzip file1.txt
+解压：gunzip file1.txt.gz
+Zip
+打包：zip file1.zip file.txt
+解压：unzip file1.zip
+</code></pre>
+<h4 id="linux下find命令和grep命令的区别"><a href="#linux下find命令和grep命令的区别" class="headerlink" title="linux下find命令和grep命令的区别"></a>linux下find命令和grep命令的区别</h4><pre><code>find：在磁盘/分区中找到文件，可以配type，可以配size time等，通过文件名和文件大小或访问时间找到指定文件
+grep：查找文件里符合条件的字符串，并把匹配的行打印出来，使用正则表达式
 </code></pre>
             </div>
             <hr>
@@ -525,7 +520,7 @@ mb_substr是按字来切分字符。。mb_strcut是按字节来切分字符。
                     <span class="reprint-tip">Reprint please specify: </span>
                     <a href="localhost:4000" class="b-link-green">滑稽猫</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2018/12/19/php-ba-gao/" class="b-link-green">PHP知识总结</a>
+                    <a href="/2018/12/20/linux/" class="b-link-green">Linux</a>
                 </p>
             </div>
         </div>
@@ -547,7 +542,7 @@ mb_substr是按字来切分字符。。mb_strcut是按字节来切分字符。
         repo: 'liliquan.github.io',
         owner: 'liliquan',
         admin: "liliquan",
-        id: '2018-12-19T15-45-28',
+        id: '2018-12-20T11-27-10',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -567,7 +562,56 @@ mb_substr是按字来切分字符。。mb_strcut是按字节来切分字符。
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">Previous</div>
+            <div class="article-badge left-badge text-color">Current</div>
+            <div class="card">
+                <a href="/2018/12/20/linux/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Linux">
+                        
+                        <span class="card-title">Linux</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">有一个系统平台PHP数据页面需要定时刷新以增加搜索引擎的友好性，该脚本的路径及名称为：/share/web/refresh.php，请尝试让Linux每天晚上12:00自动执行及早4:00自动运行程序？参考答案：
+1.linux下执行PHP</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-20
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Linux总结/" class="post-category" target="_blank">
+                                    Linux总结
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Linux/" target="_blank">
+                        <span class="chip bg-color">Linux</span>
+                    </a>
+                    
+                    <a href="/tags/基础知识/" target="_blank">
+                        <span class="chip bg-color">基础知识</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">Next</div>
             <div class="card">
                 <a href="/2018/12/19/mysql/">
                     <div class="card-image">
@@ -582,9 +626,9 @@ mb_substr是按字来切分字符。。mb_strcut是按字节来切分字符。
                     <div class="summary">Mysql的存储引擎，myisam和innodb的区别文件构成：myisam由3个文件构成（表定义文件.frm、数据文件.MYD、索引.MYI），innodb由2个文件构成（表结构、数据结构）
 事务支持：myisam不支持事务，innodb</div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -606,51 +650,6 @@ mb_substr是按字来切分字符。。mb_strcut是按字节来切分字符。
                     
                     <a href="/tags/Mysql数据库/" target="_blank">
                         <span class="chip bg-color">Mysql数据库</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">Next</div>
-            <div class="card">
-                <a href="/2018/12/17/php/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="PHP基础知识总结">
-                        
-                        <span class="card-title">PHP基础知识总结</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">PHP的意思，它能干些什么PHP（超文本预处理）是一种被广泛应用开放源代码的多用途脚本语言，可嵌入HTML中，尤其适合Web开发
-PHP能做很多事，主要用于服务端的脚本程序，因此可以用来完成其它CGI程序能够完成的工作
-ex：收集表单数据，</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-17
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/PHP基础/" class="post-category" target="_blank">
-                                    PHP基础
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/PHP基础知识总结/" target="_blank">
-                        <span class="chip bg-color">PHP基础知识总结</span>
                     </a>
                     
                 </div>
