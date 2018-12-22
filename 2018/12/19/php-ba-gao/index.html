@@ -348,7 +348,8 @@ BLINK内核：是由Google和Opera开发的浏览器排版引擎。
 </code></pre>
 <h4 id="简述无限分类的实现原理"><a href="#简述无限分类的实现原理" class="headerlink" title="简述无限分类的实现原理"></a>简述无限分类的实现原理</h4><pre><code>表设计：在表中添加一个parient_id来记录上级分类id，顶级分类则为0;
 树形结构：利用递归函数，将分类数据按上下级关系排序
-</code></pre><h4 id="打开php-ini中safe-mode，会影响哪些参数？"><a href="#打开php-ini中safe-mode，会影响哪些参数？" class="headerlink" title="打开php.ini中safe_mode，会影响哪些参数？"></a>打开php.ini中safe_mode，会影响哪些参数？</h4><pre><code>
+</code></pre><h4 id="打开php-ini中safe-mode，会影响哪些参数？"><a href="#打开php-ini中safe-mode，会影响哪些参数？" class="headerlink" title="打开php.ini中safe_mode，会影响哪些参数？"></a>打开php.ini中safe_mode，会影响哪些参数？</h4><pre><code>safe_mode是php的安全模式，安全模式提供一个基本安全的共享环境。在一个当有多个账户存在的php开放的web服务器，当服务器上运行的php打开了安全模式，那么一些函数将被完全禁止，一些尝试访问文件系统的函数功能将被限制。
+chdir,redir,mkdir,rename,fopen,unlink,move_uploaded_file
 </code></pre><h4 id="对PHP命名空间的理解"><a href="#对PHP命名空间的理解" class="headerlink" title="对PHP命名空间的理解"></a>对PHP命名空间的理解</h4><pre><code>命名空间是一种封装事务的抽象方法，空间是虚拟的，主要用来解决类、函数、常量名字的冲突问题
 命名空间的引入机制：使用关键字use
 </code></pre><p>####用PHP写出一个安全的用户登录系统需要注意哪些方面？</p>
